@@ -59,3 +59,30 @@ function fizzbuzz(){
    console.log(output);
 }
 }
+
+
+/* Fibbonacci Generator*/
+
+
+function FibbonacciGenerator(n) {
+
+ var fgArray = [];   
+ 
+if (n===1){
+   fgArray = [0];
+ }
+
+else if(n===2){
+  fgArray = [0,1];
+}
+
+else{
+fgArray = [0, 1]
+for(var i = 2; i < n; i++){
+  fgArray.push(fgArray[fgArray.length - 2] + fgArray[fgArray.length -1]);
+  }
+}
+
+console.log(fgArray);
+}
+
