@@ -1,0 +1,133 @@
+console.log("Hello World")
+
+console.log("we are learning Variables")
+
+let variable = "Variable"
+
+variable = "newVariable"
+console.log(variable)
+
+function calculateCircleArea(r) {
+    const pi = 3.14;
+    return pi * r * r;
+}
+
+var r = 7;
+var area = calculateCircleArea(r);
+console.log(area)
+
+let dataType = 0xff;
+
+console.log(dataType);
+
+let name = 'kenny';
+let age = 3;
+console.log('name:', name, 'age:', age);
+
+//  operations
+
+let one = false;
+let two = true;
+
+var value = one + two;
+console.log(value);
+
+
+//  post increment vs. pre increment
+
+let num = 9
+
+let s = num++;
+let t = ++num;
+console.log(s, t);
+console.log(num);
+
+let sword = "a sword";
+let pen = "b pen_is_mightier_than_sword";
+
+
+if (pen > sword) {
+    console.log("Pen is mightier than sword")
+}
+
+// if we try to compare a number and a string, JS does type conversion
+
+let a = 2;
+let b = "2";
+console.log(a < b);
+console.log(a);
+console.log(b);
+// type conversion and ignoring of data type if 2 "==" are used/
+console.log(a == b);
+
+// type conversion is not done if 3 (===) are used for comparison
+console.log(a === b);
+
+
+let x = 1;
+let y = 2;
+let z = 3;
+
+result = z % 2 === 0 ? "Even" : "Odd"
+console.log(result)
+
+if (z % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odddd");
+}
+
+
+// // // SWITCH case
+
+day = "Monday";
+
+switch (day) {
+    case 'Monday':
+        console.log("8 am");
+        break;
+    case 'Tuesday':
+        console.log("9 am")
+        break;
+    case 'Wednesday':
+        console.log("10 am")
+        break;
+    case 'Thursday':
+        console.log("11 am")
+        break;
+    case 'Friday':
+        console.log("12 Noon")
+        break;
+    default:
+        console.log("Araaam")
+}
+
+let num1 = 9;
+let num2 = 2;
+
+result = num1 + num2;
+// // Backticks
+
+console.log(`result addition of ${num1} and ${num2} is ${result}`);
+
+
+let v = 5;
+
+while (v > 0) {
+    console.log(`we are decrementing and value of v is ${v}`);
+    v--;
+}
+
+
+
+// do while loop
+
+
+let i = 10;
+do {
+    console.log(` hi i is : ${i}`)
+    i--;
+}
+while (i > 5) {
+    console.log(` i is less than 5`)
+}
