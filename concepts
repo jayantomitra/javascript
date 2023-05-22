@@ -1,0 +1,19 @@
+var radius;
+
+function perimeter(radius){
+    const pi = 3.14;
+    function area(radius){
+        // console.log(pi);
+        return (pi*radius*radius);
+        
+    }
+    x = area(9);
+    console.log(x);
+    return (2*pi*radius);
+    
+}
+
+y = perimeter(9);
+
+console.log(y);
+
