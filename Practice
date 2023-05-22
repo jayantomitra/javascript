@@ -1,0 +1,14 @@
+const myset = new Set();
+
+my_string = "geek";
+
+for (let el=0; el<= my_string.length-1; el ++){
+ // console.log(my_string[el]);
+  if(myset.has(my_string[el])){
+  console.log(`element ${my_string[el]} is in myset and is the 1st repeating character`)
+   }
+   else{
+    myset.add(my_string[el]);
+    console.log(myset);
+   }
+}
